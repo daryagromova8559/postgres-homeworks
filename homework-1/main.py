@@ -7,7 +7,7 @@ try:
         "host": "localhost",
         "database": "north",
         "user": "postgres",
-        "password": "02051996"
+        "password": "1710"
     }
     with psycopg2.connect(**conn_parms) as conn:
         with conn.cursor() as cur:
